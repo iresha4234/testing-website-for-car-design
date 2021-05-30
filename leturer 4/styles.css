@@ -1,0 +1,59 @@
+body {
+    background-color: #80808059;
+}
+
+.nav-bar {
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background-color: #58796a;
+}
+
+.nav-bar .material-icons {
+  position: fixed;
+  top: 39px;
+  left: 37px;
+}
+
+.nav-bar h1 {
+  font-family: "Pattaya", sans-serif;
+  color: white;
+}
+
+.content {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.car-card {
+  width: 250px;
+  padding: 8px;
+  margin: 4px;
+}
+
+.car-card-img {
+  width: 100%;
+  height: auto;
+  border: black;
+}
+
+.car-card-content {
+  text-align: center;
+}
+
+.car-card-content h2,
+h5 {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
